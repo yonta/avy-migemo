@@ -575,11 +575,9 @@ BEG / LEN is an integer."
                      (read-char "char 2: " t)
                      current-prefix-arg
                      nil nil))
-  (when (eq char1 ?
-)
+  (when (eq char1 ?)
     (setq char1 ?\n))
-  (when (eq char2 ?
-)
+  (when (eq char2 ?)
     (setq char2 ?\n))
   (avy-with avy-goto-char-2
     (avy-jump
